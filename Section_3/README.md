@@ -11,7 +11,7 @@ Processing images
 - Storage solution must incorporate object storage.
 - Storage solutions should be scalable to incorporate influx of images.
 - S3 Storage should have lifecycle configuration to delete objects after 7 days.
-- S3 storage should have a VPC Endpoint connecting to the VPC for Web Apps to fetch images.
+- S3 storage be connected to a VPC Endpoint for Web Apps to fetch images.
 
 Web application
 - Load balanced by ALB for 2 availability zones.
