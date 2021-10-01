@@ -33,7 +33,7 @@ Business intelligence
 - AWS QuickSight to record and display business intelligence statistics.
 - AWS DynamoDB to store metadata of files which can still be accessible even after objects are deleted.
 
-![AWS architecture](Section_3/AWS_architecture.png)
+![AWS architecture](https://github.com/BenFheng/dataeng_test/blob/50d88831d02c5ba6655430a62318efed7072f280/Section_3/AWS%20architecture.png)
 
 ## Steps for upload
 
