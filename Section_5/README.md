@@ -11,5 +11,7 @@ Used GridSearch to optimise parameters of models
 
 Best model: Linear SVM with 33.3% accuracy
 
-Result of buying price prediction: Low (Maintenance = High Number of doors = 4 Lug Boot Size = Big Safety = High Class Value = Good)
+Result of buying price prediction: 
+Low/medium (Maintenance = High Number of doors = 4 Lug Boot Size = Big Safety = High Class Value = Good). Buying price is low when number of persons is 2 & 4, but buying price becomes medium when number of persons is >5.
+
 
