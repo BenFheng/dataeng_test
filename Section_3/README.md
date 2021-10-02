@@ -11,7 +11,7 @@ Processing images
 - Storage solution must incorporate object storage.
 - Storage solutions should be scalable to incorporate influx of images.
 - S3 Storage should have lifecycle configuration to delete objects after 7 days.
-- S3 storage should have a VPC Endpoint connecting to the VPC for Web Apps to fetch images.
+- S3 storage be connected to a VPC Endpoint for Web Apps to fetch images.
 
 Web application
 - Load balanced by ALB for 2 availability zones.
@@ -33,7 +33,7 @@ Business intelligence
 - AWS QuickSight to record and display business intelligence statistics.
 - AWS DynamoDB to store metadata of files which can still be accessible even after objects are deleted.
 
-![AWS architecture](Section_3/AWS_architecture.png)
+![AWS architecture](https://github.com/BenFheng/dataeng_test/blob/50d88831d02c5ba6655430a62318efed7072f280/Section_3/AWS%20architecture.png)
 
 ## Steps for upload
 
