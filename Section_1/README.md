@@ -7,6 +7,14 @@
 - Delete any rows which do not have a name
 - Create a new field named above_100, which is true if the price is strictly greater than 100
 
+- Cron job should take a python file and run it scheduled 1am
+
+## Files
+
+- raw_data folder : contains original csv files
+- processed_data folder : contains processed csv files
+- process.ipynb : notebook used to process data
+
 ## Cron job steps
 ```
 @daily is 0 1 * * * --> minute | hour | day (month) | month | day (week)
