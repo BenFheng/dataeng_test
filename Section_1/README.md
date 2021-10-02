@@ -9,6 +9,8 @@
 
 - Cron job should take a python file and run it scheduled 1am
 
+NOTE: Did not complete cron job section in time
+
 ## Files
 
 - raw_data folder : contains original csv files
